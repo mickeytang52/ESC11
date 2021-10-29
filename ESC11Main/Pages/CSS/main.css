@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Zen+Antique&family=Zen+Antique+Soft&display=swap");
+:root {
+  --primary-color:#408697;
+  --secondary-color:#52D6F4;
+  --tertiary-color:#F6F6F6;
+  --quaternary-color:#8D8C8A;
+}
+
+body {
+  background: var(--quaternary-colorr);
+  margin: 0;
+  font-family: 'Oswald';
+}
+
+.navbar {
+  background: var(--quaternary-color);
+  padding: 1em;
+}
+
+.logo {
+  color: var(--quaternary-color);
+}
+
+nav {
+  display: none;
+}
+
+.container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.mobile-menu {
+  cursor: pointer;
+}
+
+.link {
+  color: var(--secondary-color);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+}
+
+image {
+  width: 800px;
+  height: 200px;
+}
+
+.center-col span {
+  color: var(--secondary-color);
+}
+
+btn {
+  width: 70%;
+  margin-top: 3em;
+}
+/*# sourceMappingURL=main.css.map */
